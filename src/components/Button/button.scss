@@ -1,0 +1,21 @@
+.button {
+    &__field {
+        font-family: -apple-system, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+            'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        color: #fff;
+        background-color: rgb(81, 56, 238);
+        width: 100%;
+        padding: 0.8rem;
+        border: 1px solid rgb(210, 193, 193);
+        border-radius: 30px;
+        margin: 1rem 0;
+
+        outline: none;
+        font-size: 1rem;
+        &:hover {
+            cursor: pointer;
+            opacity: 0.9;
+        }
+    }
+}

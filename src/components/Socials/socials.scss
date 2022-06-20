@@ -1,0 +1,26 @@
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    padding: 0.4rem;
+    border: 1px solid rgb(210, 193, 193);
+    border-radius: 30px;
+    margin: 1rem 0;
+    font-weight: 600;
+    &__icon {
+        font-size: 1.5rem;
+        // flex: 1;
+    }
+    &__title {
+        font-family: -apple-system, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+            'Helvetica Neue', sans-serif;
+        margin-left: 0.5rem;
+        // flex: 1;
+    }
+    &:hover {
+        cursor: pointer;
+        background-color: rgb(249, 249, 249);
+    }
+}

@@ -1,0 +1,29 @@
+.input {
+    &__wrap {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        font-family: -apple-system, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+            'Helvetica Neue', sans-serif;
+        font-weight: 600;
+    }
+
+    &__label {
+        text-transform: capitalize;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    &__field {
+        width: 100%;
+        padding: 0.8rem;
+        border: 1px solid rgb(210, 193, 193);
+        border-radius: 30px;
+        margin: 0.5rem 0;
+        background-color: #fff;
+        outline: none;
+        font-size: 1rem;
+    }
+}
